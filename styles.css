@@ -1,0 +1,210 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* *************************************header session start **************************************/
+header {
+    background-color: #3652AD;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px;
+/* *************************************header session end **************************************/
+}
+
+
+/************************************** main session start**************************************/
+main {
+    padding: 20px;
+   
+}
+
+.searchBar
+{
+    border: none;
+    box-shadow: 0px 0px 4px 0px rgba(66, 68, 90, 1);
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 250px;
+    font-weight: bold;
+    
+    
+}
+
+.fetchBtn
+{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+#input
+{
+    font-weight: bold;
+    margin-top:10px ;
+    text-align: center; 
+}
+
+.loading
+{
+    display: none;
+    text-align: center;
+}
+
+.container
+{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin: 50px;
+  
+}
+
+#profile
+{
+    margin: 16px;
+}
+
+img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.imgContainer
+{
+    position: relative;
+}
+
+.info
+{
+    text-align: center;
+}
+
+.githubLink
+{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: repeat(5,auto);
+    gap: 10px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+
+li{
+    border: 1px solid black;
+    height: 85px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 0px rgba(66, 68, 90, 1);
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+
+    
+}
+
+.title
+{
+    font-weight: bold;
+}
+
+
+
+
+
+.topics
+{
+    display: inline-block;
+    background-color: blue;
+   border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.topicsEllipsis
+{
+width:100%;
+white-space: nowrap;
+text-overflow: ellipsis;
+overflow: hidden;
+}
+
+.desc
+{
+width:100%;
+white-space: nowrap;
+text-overflow: ellipsis;
+overflow: hidden;
+}
+
+p
+{
+    margin: unset;
+    margin: 5px;
+    
+}
+#repos-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* .repo-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+} */
+
+
+
+/**************************************main session end**************************************/
+
+
+/************************************** footer session start**************************************/
+
+footer
+{
+    height: 50px;
+    background-color: #3652AD;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+#prevButton,#nextButton
+{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+   box-shadow: 0px 0px 10px -1px rgba(66, 68, 90, 1);
+   font-weight: bolder;
+   cursor: pointer;
+}
+
+#pageCount
+{
+    font-weight: bolder;
+    color: white;
+}
+
+/************************************** footer session end **************************************/
+
+
+
